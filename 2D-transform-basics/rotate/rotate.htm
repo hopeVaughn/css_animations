@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Transition</title>
+    <style type="text/css">
+      img {
+        width: 300px;
+        display: block;
+        margin: auto;
+        margin-top: 200px;
+        transition: transform 2s;
+      }
+
+      img:hover {
+        transform: rotate(200grad);
+        /* mostly used in deg */
+        /* 1 full circle is 400grad */
+        /* (1turn) or (-0.5turn) */
+      }
+    </style>
+  </head>
+
+  <body>
+    <img src="cat.jpg" alt="" />
+  </body>
+</html>
