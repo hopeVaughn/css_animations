@@ -1,11 +1,11 @@
 body {
- margin: 0;
- display: flex;
- align-items: center;
- justify-content: center;
- height: 100vh;
- font-family: sans-serif;
- background-color: #212121;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #212121;
 }
 
 a {
@@ -46,12 +46,13 @@ a:after {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform-origin: bottom;
+  transform-origin: top;
   transform: rotateX(270deg);
   transition: all 0.5s;
   transition-delay: 0.25s;
 }
 
-a:hover:before, a:hover:after {
-   transform: rotateX(0deg); 
+a:hover:before,
+a:hover:after {
+  transform: rotateX(0deg);
 }
