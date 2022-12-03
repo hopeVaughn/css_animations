@@ -3,37 +3,38 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #222;
 }
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #262626;
 	font-family: sans-serif;
 	font-size: 40px;
-	border: 3px solid white;
+	border: 3px solid #262626;
 	padding: 40px 80px;
+	transition: all .5s;
 	position: relative;
-	transition: all 1s;
 	overflow: hidden;
 }
 
 a:before {
-	content: 'YEAH!';
-	color: white;
-	background-color: #F44336;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	content: 'Hover me';
 	position: absolute;
-	left: 0;
 	top: 0;
+	left: 0;
 	height: 100%;
 	width: 100%;
-	transform: translateY(-100%);
+	background-color: #262626;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(5);
+	opacity: 0;
 	transition: all .5s;
 }
 
 a:hover:before {
-	transform: translateY(0);
+	transform: scale(1);
+	opacity: 1;
 }

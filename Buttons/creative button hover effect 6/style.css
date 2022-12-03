@@ -13,27 +13,27 @@ a {
 	font-size: 40px;
 	border: 3px solid white;
 	padding: 40px 80px;
+	transition: all .3s;
 	position: relative;
-	transition: all 1s;
 	overflow: hidden;
 }
 
-a:before {
-	content: 'YEAH!';
-	color: white;
+a:hover {
 	background-color: #F44336;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-	left: 0;
+}
+
+a:before {
+	content: '';
+	background-color: white;
 	top: 0;
-	height: 100%;
+	left: 0;
 	width: 100%;
-	transform: translateY(-100%);
-	transition: all .5s;
+	height: 50px;
+	position: absolute;
+	transform: translateX(-100%) rotate(45deg);
+	transition: all .3s;
 }
 
 a:hover:before {
-	transform: translateY(0);
+	transform: translateX(100%) rotate(45deg);
 }
