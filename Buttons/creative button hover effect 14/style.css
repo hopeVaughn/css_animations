@@ -1,10 +1,10 @@
 body {
- margin: 0;
- display: flex;
- align-items: center;
- justify-content: center;
- height: 100vh;
- font-family: verdana;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: verdana;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
   font-weight: bold;
   letter-spacing: 2px;
   position: relative;
-  transition: all 0.2s;
+  transition: all .2s;
   color: white;
 }
 
@@ -32,7 +32,7 @@ a:before {
   background-color: #20caff;
   z-index: -1;
   mix-blend-mode: multiply;
-  transition: all 0.2s;
+  transition: all .2s;
   transform-origin: top;
 }
 
@@ -52,7 +52,7 @@ a:after {
   background-color: #ff7675;
   z-index: -1;
   mix-blend-mode: multiply;
-  transition: all 0.2s;
+  transition: all .2s;
   transform-origin: bottom;
 }
 

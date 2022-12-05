@@ -18,7 +18,7 @@ a {
   text-transform: uppercase;
   text-align: center;
   line-height: 80px;
-  transition: all 0.5s;
+  transition: all .5s;
   position: relative;
 }
 
@@ -32,7 +32,7 @@ a:after {
   background-color: #ff0;
   border-radius: 50%;
   transform: translateY(-50%);
-  transition: all 0.3s;
+  transition: all .3s;
   z-index: -1;
   opacity: 0;
 }
@@ -70,7 +70,7 @@ span {
   background-color: #ff0;
   border-radius: 8px;
   transform: scale(0);
-  transition: all 0.3s;
+  transition: all .3s;
   z-index: -1;
 }
 
