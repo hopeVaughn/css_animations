@@ -40,11 +40,12 @@ ul li a:before {
 	transform-origin: left
 }
 
- ul li a:hover:before, ul li a:hover:after {
- 	transform: scaleX(1);
- }
+ul li a:hover:before,
+ul li a:hover:after {
+	transform: scaleX(1);
+}
 
- ul li a:after {
+ul li a:after {
 	content: '';
 	position: absolute;
 	bottom: 0;
